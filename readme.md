@@ -35,21 +35,25 @@ A .env file with the following:
 env
 Copy code
 PORT=5000
-MONGO_URI=<your_mongodb_connection_string>
-JWT_SECRET=<your_jwt_secret>
+MONGO_URI = 
+JWT_SECRET = 
 Steps
 Clone the repository:
 
 bash
 Copy code
-git clone https://github.com//growthx-assignment-management.git
-cd growthx-assignment-management
+
+git clone https://github.com/kamalnath2003/Growthx1
+cd Growthx1
 Install dependencies:
+
+
 
 bash
 Copy code
 npm install
 Seed the default admin (username: admin, password: admin):
+
 
 bash
 Copy code
@@ -79,7 +83,7 @@ POST /api/admins/assignments/:id/reject: Reject an assignment.
 Folder Structure
 bash
 Copy code
-GrowthX-Assignment-Management/
+GrowthX/
 │
 ├── config/
 │   └── db.js              # Database connection
@@ -115,10 +119,8 @@ Admins can view assignments and accept/reject them.
 
 Future Enhancements
 Enhanced UI/UX for frontend.
-
 Add notifications for assignment status updates.
 Role-based dashboards for admins and users.
-
 Email notifications on assignment acceptance/rejection.
 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss your ideas.
